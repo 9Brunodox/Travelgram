@@ -1,0 +1,36 @@
+
+.profile{
+    padding: 3.2rem 0;
+}
+
+.profile-bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+.profile-bio__main {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.profile-bio__main div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-bio__secondary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 13rem;
+  gap: 1.6rem;
+}
+
+.profile-bio__secondary ul {
+  list-style: none;
+}
+
+.profile-bio__secondary ul li p {
+  font-size: 1.6rem;
+}
