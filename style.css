@@ -1,14 +1,4 @@
-@import url("./assets/styles/body.css");
-@import url("./assets/styles/colors.css");
+@import url("./assets/styles/global.css");
 @import url("./assets/styles//header.css");
 @import url("./assets/styles/footer.css");
-@import url("./assets/styles/main.css");
-
-.profile-photos{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: var(--skeleton-color);
-    border: 1px solid red;
-    gap: 2rem;
-    padding: 3.2rem 0;
-}
+@import url("./assets/styles/profile.css");
