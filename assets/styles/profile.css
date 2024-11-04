@@ -1,0 +1,26 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2rem;
+}
+
+.profile-bio__main {
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-bio__main .profile_desc {
+  margin-top: 0.5rem;
+  max-width: 370px;
+}
+
+.profile-bio__secondary ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-bio__secondary i {
+  color: var(--brand-color);
+  margin-right: 0.5rem;
+}
