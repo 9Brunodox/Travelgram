@@ -5,7 +5,7 @@ header {
 }
 
 header #logo {
-  width: 200px;
+  width: 16.2rem;
 }
 
 .nav-items ul {
@@ -13,4 +13,46 @@ header #logo {
   list-style: none;
   align-items: center;
   gap: 1.25rem;
+}
+
+.nav-items ul li{
+  display: flex;
+  align-items: center;
+}
+
+.nav-items ul li i{
+  font-size: 1.4rem;
+  color: var(--text-color-secondary);
+}
+
+.nav-items ul li a{
+  font-size: 1.2rem;
+  color: var(--text-color-secondary);
+}
+
+@media (max-width: 600px){
+  header #logo {
+    width: 5rem;
+    height: 2rem;
+    margin-top: .3rem;
+  }
+
+  .nav-items ul{
+    gap: .8rem;
+  }
+
+  .nav-items ul li a{
+    font-size: 1rem;
+    color: var(--text-color-secondary);
+  }
+
+  .nav-items ul li i{
+    display: none;
+  }
+}
+
+@media (max-width: 700px){
+  header #logo {
+    width: 10rem;
+  }
 }
