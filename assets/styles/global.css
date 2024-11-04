@@ -43,6 +43,7 @@ ul {
 
 a {
   text-decoration: none;
+  transition: color 0.2s; /* Adiciona uma transição suave */
 }
 
 .heading1 {
@@ -62,4 +63,19 @@ a {
 .paragraph-sm {
   font-size: 0.75rem;
   line-height: 170%;
+}
+
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  color: var(--text-color-secondary);
+}
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
 }

@@ -5,12 +5,22 @@ header {
 }
 
 header #logo {
-  width: 200px;
+  width: 125px;
+}
+.nav-links li:first-child img {
+  transition: transform 0.2s; /* Adiciona uma transição suave */
+}
+.nav-links li:first-child img:hover {
+  transform: scale(1.2); /* Aumenta o tamanho da imagem em 10% */
 }
 
-.nav-items ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  gap: 1.25rem;
+header .nav-links img {
+  width: 20px;
+  height: 20px;
+}
+
+header li:last-child img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }

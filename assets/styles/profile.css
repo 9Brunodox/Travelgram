@@ -20,7 +20,8 @@
   flex-direction: column;
 }
 
-.profile-bio__secondary i {
-  color: var(--brand-color);
+.profile-bio__secondary img {
+  width: 20px;
+  height: 20px;
   margin-right: 0.5rem;
 }
